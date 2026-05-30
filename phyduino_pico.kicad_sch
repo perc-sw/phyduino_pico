@@ -41327,9 +41327,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "dca41242-f525-4ebd-b729-d83ff88ed379")
 		(property "Reference" "DRAW1"
