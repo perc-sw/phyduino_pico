@@ -12,7 +12,7 @@ The CAD program used to design this board is [KiCAD](https://www.kicad.org/) whi
 
 ## Files
 
-- Gerber Files are located in the [fabrication folder](./fabrication/)
+- Gerber Files are located in the [fabrication folder](./fab)
 - There is an [Interactive bill of materials html file](https://perc-sw.github.io/phyduino_pico/bom/ibom_student.html) that you can use to assist you in assembling the board. 
 - PDF of [Schematic](./docs/pdf/board/phyduino_pico_schematic.pdf)
 - PDF of PCB
