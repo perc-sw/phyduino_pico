@@ -51,7 +51,23 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.5
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.2,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 2,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -66,7 +82,32 @@
           "width": 0.15
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|103414000|37530000|f78d1074-e50a-4bc3-8eff-17f5abcf020c|ba70b608-9a3e-49ae-b4e9-0c0fec3dbe01",
+          ""
+        ],
+        [
+          "copper_edge_clearance|103414000|43130000|f78d1074-e50a-4bc3-8eff-17f5abcf020c|af9e60b1-b3f4-4597-b0c1-f23609bc780d",
+          ""
+        ],
+        [
+          "copper_edge_clearance|38145000|32680000|403e03b9-6e6a-4314-8f2c-e517b28be911|deaca14a-6efd-4301-b36a-18fde94d8f6b",
+          ""
+        ],
+        [
+          "copper_edge_clearance|38145000|37280000|403e03b9-6e6a-4314-8f2c-e517b28be911|e97b5683-a669-4271-bf7e-8836e762ce6a",
+          ""
+        ],
+        [
+          "solder_mask_bridge|103414000|37530000|47fb28e7-32ee-4803-a246-f456d0ab7694|af9e60b1-b3f4-4597-b0c1-f23609bc780d",
+          ""
+        ],
+        [
+          "starved_thermal|58167000|66078000|44c5ef8b-966a-4928-8272-cbb470bcb822|9aaf5c92-cabe-41ab-a047-c704c51ae7c6|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -604,7 +645,6 @@
         "bus_width": 12,
         "clearance": 0.13,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -623,7 +663,6 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.15,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -642,7 +681,6 @@
         "bus_width": 12,
         "clearance": 0.13,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -661,7 +699,6 @@
         "bus_width": 12,
         "clearance": 0.13,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -680,7 +717,6 @@
         "bus_width": 12,
         "clearance": 0.13,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -781,7 +817,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "fab/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "step/Phyduino_Pico_RevD.step",
@@ -827,7 +863,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -918,6 +954,12 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KiLib_Generator",
+          "name": "KiLib_Generator",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -986,13 +1028,13 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R25,R38-39,C13-14,H4,SW2",
     "variants": []
   },
   "sheets": [
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
-      "Phyduino_Pico_RevE"
+      "phyduino_pico"
     ]
   ],
   "text_variables": {},

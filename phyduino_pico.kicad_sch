@@ -661,27 +661,29 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 22.225 0)
+			(property "Reference" "J6"
+				(at 9.652 19.304 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_USB2.0_14P"
-				(at 0 19.685 0)
+			(property "Value" "USB4110-GF-A"
+				(at 11.176 -16.764 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector - PC SMT [UL]:GCT-USBC-GCT_USB4110"
 				(at 3.81 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -738,8 +740,8 @@
 			)
 			(symbol "USB_C_Receptacle_USB2.0_14P_0_0"
 				(rectangle
-					(start -0.254 -17.78)
-					(end 0.254 -16.764)
+					(start 7.366 -17.78)
+					(end 7.874 -16.764)
 					(stroke
 						(width 0)
 						(type default)
@@ -1029,7 +1031,7 @@
 			)
 			(symbol "USB_C_Receptacle_USB2.0_14P_1_1"
 				(pin passive line
-					(at 0 -22.86 90)
+					(at 7.62 -22.86 90)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -1138,7 +1140,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -22.86 90)
+					(at 7.62 -22.86 90)
 					(length 5.08)
 					(hide yes)
 					(name "GND"
@@ -1157,7 +1159,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -22.86 90)
+					(at 7.62 -22.86 90)
 					(length 5.08)
 					(hide yes)
 					(name "GND"
@@ -1268,7 +1270,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -22.86 90)
+					(at 7.62 -22.86 90)
 					(length 5.08)
 					(hide yes)
 					(name "GND"
@@ -1297,6 +1299,328 @@
 						)
 					)
 					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -22.86 90)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -22.86 90)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical - Switches:Slide_MINI_MSK12CO2"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 4.064 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "MINI MSK12CO2"
+				(at 1.778 -4.318 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "UL - Mechanical - Switches:Switch_Slide_ShouHan_MINI_MSK12CO2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407161403_SHOU-HAN-MINI-MSK12CO2_C2681570.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Horizontal attachment 50mA Single Pole Double Throw (SPDT) 12V White 10,000 times SMD Slide Switches ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Slide_MINI_MSK12CO2_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Slide_MINI_MSK12CO2_0_1"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Slide_MINI_MSK12CO2_1_1"
+				(rectangle
+					(start -3.81 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.572) (xy 1.016 -4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -4.191 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7689,187 +8013,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "phyduino_pico:SW_SPDT"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 4.318 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPDT"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_SPDT_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPDT_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPDT_1_1"
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "phyduino_pico:TPS54231DR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9621,7 +9764,7 @@
 	)
 	(text "BOOT SWITCH\n	- +3.3V Normal Boot mode\n	- GND UF2 Boot mode"
 		(exclude_from_sim no)
-		(at 227.33 102.87 0)
+		(at 230.124 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10546,7 +10689,7 @@
 		(uuid "857169ad-9020-4f3a-be54-134233dff01c")
 	)
 	(junction
-		(at 152.4 193.04)
+		(at 149.86 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89c00ead-c186-4339-b2e4-e37c09ff4e66")
@@ -10654,7 +10797,7 @@
 		(uuid "afa69ffd-b388-4470-b572-3d9939761d51")
 	)
 	(junction
-		(at 140.97 193.04)
+		(at 134.62 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b46a8bc1-bcb4-47ae-ba14-aaeca398e1f4")
@@ -10876,6 +11019,14 @@
 		(uuid "ffbcf437-b8cb-48fd-99c9-4c1af63544f9")
 	)
 	(no_connect
+		(at 240.03 93.98)
+		(uuid "2112b158-dd26-4bdb-b1c8-7b8f3cd35bea")
+	)
+	(no_connect
+		(at 144.78 185.42)
+		(uuid "914a1f2e-ed53-43f0-8cee-df31d8a4de53")
+	)
+	(no_connect
 		(at 394.97 128.27)
 		(uuid "95e02dbe-c49e-4798-aa7f-6a25f9baf92f")
 	)
@@ -10890,6 +11041,14 @@
 	(no_connect
 		(at 232.41 194.31)
 		(uuid "b924d6c8-781a-4eaf-a05f-4c506a9be4bd")
+	)
+	(no_connect
+		(at 142.24 185.42)
+		(uuid "c3bcea58-72ee-4b64-8689-c275cfb37621")
+	)
+	(no_connect
+		(at 147.32 185.42)
+		(uuid "dc92712e-564d-49cd-a762-449624ee084f")
 	)
 	(no_connect
 		(at 394.97 130.81)
@@ -11549,7 +11708,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 88.9) (xy 247.65 92.71)
+			(xy 250.19 88.9) (xy 250.19 92.71)
 		)
 		(stroke
 			(width 0)
@@ -12179,7 +12338,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 185.42) (xy 149.86 189.23)
+			(xy 149.86 185.42) (xy 149.86 193.04)
 		)
 		(stroke
 			(width 0)
@@ -12539,7 +12698,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 193.04) (xy 154.94 194.31)
+			(xy 152.4 193.04) (xy 152.4 194.31)
 		)
 		(stroke
 			(width 0)
@@ -13009,7 +13168,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 193.04) (xy 152.4 193.04)
+			(xy 152.4 193.04) (xy 149.86 193.04)
 		)
 		(stroke
 			(width 0)
@@ -13066,16 +13225,6 @@
 			(type default)
 		)
 		(uuid "462580aa-fb2d-40fc-bfcf-a19a5d193f2d")
-	)
-	(wire
-		(pts
-			(xy 149.86 189.23) (xy 152.4 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46aebb58-447b-4546-a829-4ee0d8e3722e")
 	)
 	(wire
 		(pts
@@ -13469,7 +13618,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 193.04) (xy 140.97 193.04)
+			(xy 139.7 193.04) (xy 134.62 193.04)
 		)
 		(stroke
 			(width 0)
@@ -13559,7 +13708,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 193.04) (xy 138.43 194.31)
+			(xy 132.08 193.04) (xy 132.08 194.31)
 		)
 		(stroke
 			(width 0)
@@ -14439,7 +14588,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 193.04) (xy 152.4 196.85)
+			(xy 149.86 193.04) (xy 149.86 196.85)
 		)
 		(stroke
 			(width 0)
@@ -14629,7 +14778,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 193.04) (xy 138.43 193.04)
+			(xy 134.62 193.04) (xy 132.08 193.04)
 		)
 		(stroke
 			(width 0)
@@ -14926,16 +15075,6 @@
 			(type default)
 		)
 		(uuid "8a5f48fc-f92e-4986-84bf-966b5be93d7f")
-	)
-	(wire
-		(pts
-			(xy 142.24 189.23) (xy 140.97 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a71c938-8fc3-400e-b57b-42c8f9f98a6a")
 	)
 	(wire
 		(pts
@@ -15469,7 +15608,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 196.85) (xy 140.97 196.85)
+			(xy 139.7 196.85) (xy 134.62 196.85)
 		)
 		(stroke
 			(width 0)
@@ -15629,7 +15768,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 83.82) (xy 247.65 83.82)
+			(xy 246.38 83.82) (xy 250.19 83.82)
 		)
 		(stroke
 			(width 0)
@@ -15779,7 +15918,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 196.85) (xy 140.97 193.04)
+			(xy 134.62 196.85) (xy 134.62 193.04)
 		)
 		(stroke
 			(width 0)
@@ -16109,6 +16248,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 138.43) (xy 288.29 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3b2516a-b78b-47a2-89a4-11f9d4e42985")
+	)
+	(wire
+		(pts
 			(xy 34.29 60.96) (xy 44.45 60.96)
 		)
 		(stroke
@@ -16119,23 +16268,13 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 88.9) (xy 247.65 88.9)
+			(xy 246.38 88.9) (xy 250.19 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b478034b-a255-4cea-91ff-de4c1179db2c")
-	)
-	(wire
-		(pts
-			(xy 142.24 185.42) (xy 142.24 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b47e4886-eb17-4744-a643-1b227779fb2f")
 	)
 	(wire
 		(pts
@@ -16439,7 +16578,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 196.85) (xy 152.4 196.85)
+			(xy 144.78 196.85) (xy 149.86 196.85)
 		)
 		(stroke
 			(width 0)
@@ -16529,7 +16668,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 193.04) (xy 148.59 193.04)
+			(xy 149.86 193.04) (xy 144.78 193.04)
 		)
 		(stroke
 			(width 0)
@@ -17019,7 +17158,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 189.23) (xy 140.97 193.04)
+			(xy 134.62 185.42) (xy 134.62 193.04)
 		)
 		(stroke
 			(width 0)
@@ -17769,7 +17908,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 83.82) (xy 247.65 81.28)
+			(xy 250.19 83.82) (xy 250.19 81.28)
 		)
 		(stroke
 			(width 0)
@@ -17846,16 +17985,6 @@
 			(type default)
 		)
 		(uuid "f19fbeb0-83ab-400e-83de-7a9448ca1f97")
-	)
-	(wire
-		(pts
-			(xy 288.29 138.43) (xy 288.29 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1adc27c-3cc5-4ed8-8518-2b174a2f8dd8")
 	)
 	(wire
 		(pts
@@ -17986,16 +18115,6 @@
 			(type default)
 		)
 		(uuid "f5020c2a-1f1e-4d4b-8708-35e0b34549a9")
-	)
-	(wire
-		(pts
-			(xy 152.4 189.23) (xy 152.4 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5b01e9f-721e-44b0-890f-50411ffc89b0")
 	)
 	(wire
 		(pts
@@ -19167,6 +19286,16 @@
 		)
 		(uuid "bde14a68-22ba-4b9a-896d-6990e2ef5960")
 	)
+	(label "3V3_DCDC_SS_CAP"
+		(at 288.29 140.97 90)
+		(effects
+			(font
+				(size 0.127 0.127)
+			)
+			(justify left bottom)
+		)
+		(uuid "be36f99f-ab72-4d78-8d78-48a4a64cd469")
+	)
 	(label "5V0_DCDC_COMP"
 		(at 298.45 180.34 180)
 		(effects
@@ -19346,6 +19475,16 @@
 			(justify right bottom)
 		)
 		(uuid "e85b2e2a-cfcc-44fd-a36b-5ec321eaf9a4")
+	)
+	(label "5V0_DCDC_SS_CAP"
+		(at 288.29 182.88 270)
+		(effects
+			(font
+				(size 0.127 0.127)
+			)
+			(justify right bottom)
+		)
+		(uuid "e8ffd5e0-311f-48af-9567-b8294584d3ab")
 	)
 	(label "AREF"
 		(at 40.64 83.82 180)
@@ -19578,7 +19717,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0402_1005Metric"
 			(at 59.69 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -19666,6 +19805,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 59.69 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "31e62cf7-f739-42e4-b8fd-c6553cecabe2")
 		)
@@ -19713,7 +19863,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0402_1005Metric"
 			(at 370.84 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -19801,6 +19951,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 370.84 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "74aeec42-6bfc-4bbc-913f-91265b4a534a")
 		)
@@ -19858,7 +20019,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0402_1005Metric"
 			(at 138.43 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -19946,6 +20107,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 138.43 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eb26a43d-c2e3-4f4a-9efb-47d95482001a")
 		)
@@ -19973,7 +20145,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "048a2e7a-2654-45ea-800d-89fd7b446794")
-		(property "Reference" "U7"
+		(property "Reference" "U9"
 			(at 186.69 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19995,7 +20167,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm"
+		(property "Footprint" "Package_SON [KL]:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm"
 			(at 196.85 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -20093,6 +20265,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/no_lead"
+			(at 196.85 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "230d2f4b-4ac3-419d-bc25-dd999d5d2b1c")
 		)
@@ -20123,7 +20306,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U7")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -20323,7 +20506,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 274.32 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -20411,6 +20594,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 274.32 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c114e8ad-5825-4a4a-bde3-c3642635727b")
 		)
@@ -20438,7 +20632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08c915c4-50f6-4fe8-8bbb-9c4fc09b43a2")
-		(property "Reference" "C1"
+		(property "Reference" "C38"
 			(at 290.6141 142.6816 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20460,7 +20654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 288.29 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -20548,6 +20742,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 288.29 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0a9d45d7-f838-43c2-975d-c2e68685cbf4")
 		)
@@ -20557,7 +20762,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -20673,7 +20878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0402_1005Metric"
 			(at 106.68 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -20761,6 +20966,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 106.68 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f71457d6-98ac-4fc9-b68d-3b63852c6509")
 		)
@@ -20810,7 +21026,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0402_1005Metric"
 			(at 247.65 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -20888,6 +21104,17 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 247.65 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 247.65 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -20946,7 +21173,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0402_1005Metric"
 			(at 405.13 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -21034,6 +21261,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 405.13 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7e02cc89-46b3-42e7-b54d-1b16949ef114")
 		)
@@ -21071,7 +21309,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "127ea048-021c-4f27-89d5-127fbf372057")
-		(property "Reference" "C38"
+		(property "Reference" "C14"
 			(at 100.5459 258.2516 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21093,7 +21331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0402_1005Metric"
 			(at 102.87 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -21181,6 +21419,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 102.87 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3e1ae494-a53f-47e6-8558-ef7eedb286e8")
 		)
@@ -21190,7 +21439,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C38")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -21365,7 +21614,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "14d4e05b-13a3-47f4-a232-fcc05cdccbca")
-		(property "Reference" "C39"
+		(property "Reference" "C33"
 			(at 40.64 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21385,7 +21634,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 44.45 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -21473,6 +21722,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 44.45 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ac38a534-cbf6-4c31-936e-53753434aec6")
 		)
@@ -21482,7 +21742,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C39")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -21520,7 +21780,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0402_1005Metric"
 			(at 160.02 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -21598,6 +21858,17 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 160.02 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 160.02 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -21733,7 +22004,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO [KL]:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 309.88 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -21821,6 +22092,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 309.88 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "56d46867-28de-4540-b796-ca588f06a5a4")
 		)
@@ -21888,7 +22170,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD [KL]:LED_0402_1005Metric"
 			(at 64.77 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -21943,7 +22225,7 @@
 				)
 			)
 		)
-		(property "Variant" "STUDENT"
+		(property "Variant" "ADV_SMT"
 			(at 64.77 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -21966,6 +22248,17 @@
 			)
 		)
 		(property "Manufacturer" "ams-OSRAM USA INC."
+			(at 64.77 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 64.77 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -22101,7 +22394,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0402_1005Metric"
 			(at 106.68 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -22189,6 +22482,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 106.68 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "18460fd8-c66f-4f63-98b5-aa484600e8bc")
 		)
@@ -22216,7 +22520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "208aa1d9-4a82-48d5-97dc-807da5ef508c")
-		(property "Reference" "R36"
+		(property "Reference" "R50"
 			(at 238.9886 126.2204 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22238,7 +22542,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0402_1005Metric"
 			(at 237.49 127 0)
 			(hide yes)
 			(show_name no)
@@ -22326,6 +22630,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 237.49 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ea8c4be0-113f-49f5-9367-2ddc67bf1b07")
 		)
@@ -22335,7 +22650,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R36")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -22506,10 +22821,10 @@
 		(at 254 259.08 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2491d246-7059-4702-bc08-44f75ae76ad9")
@@ -22537,7 +22852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole [KL]:MountingHole_3.2mm_M3"
 			(at 254 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -22602,7 +22917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25064ead-3a60-4b14-bac4-d50fd5432754")
-		(property "Reference" "C11"
+		(property "Reference" "C9"
 			(at 349.631 126.1653 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22624,7 +22939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 347.6752 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -22712,6 +23027,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 346.71 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d50042ef-3d6a-4df2-8127-ab66f5ad1f0a")
 		)
@@ -22721,7 +23047,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C11")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -22817,7 +23143,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26579d80-6dbb-42fc-be1a-3559e1d6a48e")
-		(property "Reference" "C35"
+		(property "Reference" "C31"
 			(at 64.77 198.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22837,7 +23163,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 64.77 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -22925,6 +23251,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 64.77 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "779569a1-b123-48f7-a901-a29839295685")
 		)
@@ -22934,7 +23271,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C35")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -22952,7 +23289,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26e55275-9f56-4cfd-9e8d-983ea378965f")
-		(property "Reference" "R14"
+		(property "Reference" "R18"
 			(at 368.3 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22972,7 +23309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0402_1005Metric"
 			(at 370.84 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -23060,6 +23397,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 370.84 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ef79b2fa-f99a-436c-a921-7d6684ef2052")
 		)
@@ -23079,7 +23427,7 @@
 			)
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R14")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -23117,7 +23465,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0402_1005Metric"
 			(at 177.8 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -23205,6 +23553,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 177.8 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0b8ba072-9ee6-4ec1-b654-d7fbc5a0be86")
 		)
@@ -23232,7 +23591,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28b6023d-4183-4d36-8c75-4f4759648a43")
-		(property "Reference" "C5"
+		(property "Reference" "C3"
 			(at 325.12 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23252,7 +23611,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 325.12 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -23340,6 +23699,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 325.12 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7677fbe9-eb14-4aec-97d8-51b989c15363")
 		)
@@ -23349,7 +23719,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C5")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -23389,7 +23759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0402_1005Metric"
 			(at 200.66 127 0)
 			(hide yes)
 			(show_name no)
@@ -23477,6 +23847,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 200.66 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "adc87763-dd3b-47e0-b4a1-e338c02a7b9a")
 		)
@@ -23523,7 +23904,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0402_1005Metric"
 			(at 408.94 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -23601,6 +23982,17 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 408.94 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 408.94 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -24052,7 +24444,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0402_1005Metric"
 			(at 110.49 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -24140,6 +24532,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 110.49 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3018f75b-829a-421a-b911-cdb78541ebbe")
 		)
@@ -24187,7 +24590,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0402_1005Metric"
 			(at 184.15 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -24275,6 +24678,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 184.15 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "695a8e60-25f0-467b-b5ea-8cfed6478aa9")
 		)
@@ -24324,7 +24738,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+		(property "Footprint" "LED_SMD [KL]:LED_0402_1005Metric"
 			(at 247.65 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -24445,6 +24859,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 247.65 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9f3d187d-de65-43b0-8b2f-1ba45f4a7173")
 		)
@@ -24543,10 +24968,10 @@
 		(at 259.08 259.08 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "314daa34-1afe-4724-851b-af844c08a61c")
@@ -24574,7 +24999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole [KL]:MountingHole_3.2mm_M3"
 			(at 259.08 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -24629,7 +25054,7 @@
 	)
 	(symbol
 		(lib_id "phyduino_pico:R_Small")
-		(at 146.05 193.04 270)
+		(at 142.24 193.04 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -24639,8 +25064,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "321ebdf0-8e94-4a23-9053-469feb779c05")
-		(property "Reference" "R43"
-			(at 146.05 190.5 90)
+		(property "Reference" "R31"
+			(at 142.24 190.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24650,7 +25075,7 @@
 			)
 		)
 		(property "Value" "1MΩ"
-			(at 146.05 193.04 90)
+			(at 142.24 193.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24659,8 +25084,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 146.05 193.04 0)
+		(property "Footprint" "Resistor_SMD [KL]:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 142.24 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24671,7 +25096,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 193.04 0)
+			(at 142.24 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24682,7 +25107,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 193.04 0)
+			(at 142.24 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24693,7 +25118,7 @@
 			)
 		)
 		(property "Variant" "STUDENT"
-			(at 146.05 193.04 0)
+			(at 142.24 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24704,7 +25129,7 @@
 			)
 		)
 		(property "Distributor" "Mouser"
-			(at 146.05 193.04 0)
+			(at 142.24 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24715,7 +25140,7 @@
 			)
 		)
 		(property "Dist_PN" "603-RC0805FR-071ML"
-			(at 146.05 193.04 0)
+			(at 142.24 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24726,7 +25151,7 @@
 			)
 		)
 		(property "PN" "RC0805FR-071ML"
-			(at 146.05 193.04 0)
+			(at 142.24 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24737,7 +25162,18 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 146.05 193.04 0)
+			(at 142.24 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 142.24 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24756,7 +25192,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R43")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -24774,7 +25210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32a37d86-96f0-4511-abc5-e006aced24d9")
-		(property "Reference" "C12"
+		(property "Reference" "C10"
 			(at 359.791 126.1653 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24796,7 +25232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 357.8352 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -24884,6 +25320,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 356.87 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2ba443fe-6d3d-4bb5-879f-72a61a91fe57")
 		)
@@ -24893,7 +25340,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C12")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -24910,7 +25357,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33a2b289-ca0f-40e1-b6a0-35fc52d547bf")
-		(property "Reference" "R18"
+		(property "Reference" "R14"
 			(at 53.5685 258.2453 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24931,7 +25378,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 52.07 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -25019,6 +25466,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 52.07 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b3b36915-bbc2-4408-87f4-74d482f764b0")
 		)
@@ -25028,7 +25486,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R18")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -25046,7 +25504,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3944ed49-875b-4661-9fdc-374089671c75")
-		(property "Reference" "R32"
+		(property "Reference" "R44"
 			(at 167.8686 178.2353 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25068,7 +25526,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0402_1005Metric"
 			(at 166.37 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -25156,6 +25614,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 166.37 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "722eb0a5-94f3-4094-826f-e16a50d1299f")
 		)
@@ -25165,7 +25634,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R32")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -25202,7 +25671,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0402_1005Metric"
 			(at 29.21 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -25290,6 +25759,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 29.21 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4ed2ebc4-1af9-4636-9f4d-fe597fbd6951")
 		)
@@ -25336,7 +25816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductors - Coilcraft:MSS1246_Handsolder"
+		(property "Footprint" "Component - Inductor SMT [UL]:MSS1246_Handsolder"
 			(at 334.01 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -25530,7 +26010,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b484ccf-4638-46c3-92c0-db953f9699cf")
-		(property "Reference" "C41"
+		(property "Reference" "C34"
 			(at 33.02 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25550,7 +26030,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 33.02 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -25638,6 +26118,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 33.02 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f8fc6ff8-b34e-45f6-9620-fe4e59a1967d")
 		)
@@ -25647,7 +26138,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C41")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -25765,7 +26256,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm"
+		(property "Footprint" "Package_DFN_QFN [KL]:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm"
 			(at 107.95 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -25843,6 +26334,17 @@
 			)
 		)
 		(property "Manufacturer" "Raspberry Pi"
+			(at 106.68 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/no_lead"
 			(at 106.68 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -26067,7 +26569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0402_1005Metric"
 			(at 247.65 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -26145,6 +26647,17 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 247.65 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 247.65 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -26439,7 +26952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KL - Connector - JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_JST [KL]:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 190.5 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -26495,6 +27008,17 @@
 			)
 		)
 		(property "Variant" "ADV_SMT"
+			(at 190.5 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/SMD_single_row_plus_mounting_pad"
 			(at 190.5 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -26708,7 +27232,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+		(property "Footprint" "Inductor_SMD [KL]:L_0402_1005Metric"
 			(at 284.48 245.618 90)
 			(hide yes)
 			(show_name no)
@@ -26796,6 +27320,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 284.48 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "76fb1c0e-7ef0-48f1-a5cd-93f226607975")
 		)
@@ -26822,7 +27357,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "46859ad8-194e-43a9-b2f2-67adf4e77ffc")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 200.66 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26844,7 +27379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm"
+		(property "Footprint" "Package_DFN_QFN [KL]:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm"
 			(at 217.17 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -26922,6 +27457,17 @@
 			)
 		)
 		(property "Manufacturer" "ST Microelectronics"
+			(at 214.63 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/no_lead"
 			(at 214.63 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -27010,7 +27556,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -27029,7 +27575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46ade5a6-dce9-44db-938a-03f193cf8d53")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 272.8215 185.8553 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27051,7 +27597,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 274.32 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -27139,6 +27685,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 274.32 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dcef3ba9-1a9b-4432-aaa1-bfa952cffb5a")
 		)
@@ -27148,7 +27705,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -27323,7 +27880,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d2ab366-4f01-4360-a463-3fe3743cf23d")
-		(property "Reference" "U6"
+		(property "Reference" "U5"
 			(at 80.01 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27345,7 +27902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm"
+		(property "Footprint" "Package_SO [KL]:QSOP-16_3.9x4.9mm_P0.635mm"
 			(at 71.12 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -27433,6 +27990,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 71.12 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cfc4fdaf-15eb-4d76-95a1-63c9eeb5590f")
 		)
@@ -27484,7 +28052,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U6")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -27602,7 +28170,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD [KL]:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 270.51 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -27723,6 +28291,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 270.51 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0bfc6f47-7526-4dfd-aa4b-2b988123428b")
 		)
@@ -27770,7 +28349,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0402_1005Metric"
 			(at 238.76 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -27858,6 +28437,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 238.76 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ce9b2acb-00b3-4454-985a-228995a3235c")
 		)
@@ -27885,7 +28475,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5705363c-890d-47b3-a0a2-e1eb6b7d4541")
-		(property "Reference" "C36"
+		(property "Reference" "C44"
 			(at 100.5459 246.8216 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27907,7 +28497,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0402_1005Metric"
 			(at 102.87 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -27995,6 +28585,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 102.87 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "22f9a028-dcb3-441e-8d92-8dd757f2e4d9")
 		)
@@ -28004,96 +28605,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "phyduino_pico:MountingHole")
-		(at 264.16 259.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "574b3223-fbfc-42b4-bbb0-682875e36e90")
-		(property "Reference" "H2"
-			(at 266.7 258.2453 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 266.7 260.7822 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 264.16 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 264.16 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" ""
-			(at 264.16 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "phyduino_pico"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H2")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -28130,7 +28642,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductors - Coilcraft:MSS1246_Handsolder"
+		(property "Footprint" "Component - Inductor SMT [UL]:MSS1246_Handsolder"
 			(at 334.01 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -28267,7 +28779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0402_1005Metric"
 			(at 241.3 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -28355,6 +28867,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 241.3 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "104238ec-54f0-48ea-9b7a-a72d24e8dbdf")
 		)
@@ -28402,7 +28925,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0402_1005Metric"
 			(at 110.49 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -28490,6 +29013,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 110.49 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a76111d3-aeed-469e-954e-adb51eed5136")
 		)
@@ -28517,7 +29051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d46f263-bdeb-449f-9999-88c87bf19c2f")
-		(property "Reference" "R51"
+		(property "Reference" "R37"
 			(at 272.0086 71.5553 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28539,7 +29073,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 270.51 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -28627,6 +29161,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 270.51 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1e572d94-9539-4b21-b31d-81f591c2a259")
 		)
@@ -28636,7 +29181,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R51")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -28674,7 +29219,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0402_1005Metric"
 			(at 160.02 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -28752,6 +29297,17 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 160.02 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 160.02 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -28857,7 +29413,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 247.65 81.28 0)
+		(at 250.19 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28868,7 +29424,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ec22674-1911-46a1-95c1-c286260692ea")
 		(property "Reference" "#PWR043"
-			(at 247.65 85.09 0)
+			(at 250.19 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28879,7 +29435,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 247.65 77.7042 0)
+			(at 250.19 77.7042 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28889,7 +29445,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 81.28 0)
+			(at 250.19 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28900,7 +29456,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 81.28 0)
+			(at 250.19 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28911,7 +29467,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 247.65 81.28 0)
+			(at 250.19 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28966,7 +29522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0402_1005Metric"
 			(at 63.5 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -29044,6 +29600,17 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
+			(at 63.5 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 63.5 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -29183,7 +29750,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0402_1005Metric"
 			(at 257.81 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -29271,6 +29838,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 257.81 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c80bb8ca-929b-4163-a3c9-a271b33f08ef")
 		)
@@ -29298,7 +29876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62e2ca47-0349-4abf-99b3-6584c252c076")
-		(property "Reference" "R5"
+		(property "Reference" "R3"
 			(at 289.7886 135.0553 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29320,7 +29898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 288.29 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -29408,6 +29986,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 288.29 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "59572224-f4cd-4cea-b1e2-3d7a32647cc0")
 		)
@@ -29417,7 +30006,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R5")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -29455,7 +30044,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0402_1005Metric"
 			(at 214.63 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -29533,6 +30122,17 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 214.63 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 214.63 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -29814,7 +30414,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6cea0429-ec95-46ca-87ee-f469f1672fbc")
-		(property "Reference" "R19"
+		(property "Reference" "R15"
 			(at 43.18 255.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29835,7 +30435,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 43.18 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -29923,6 +30523,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 43.18 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1c4b94c1-aa7d-478f-959f-4945dd947d36")
 		)
@@ -29932,7 +30543,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R19")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -29972,7 +30583,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD [KL]:D_SOD-123"
 			(at 328.93 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -30087,7 +30698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e9722ee-93ed-41a8-b8be-a9cc4d1e6df0")
-		(property "Reference" "R50"
+		(property "Reference" "R36"
 			(at 283.4386 71.5553 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30109,7 +30720,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 281.94 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -30197,6 +30808,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 281.94 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1815318c-9da6-408b-8a33-122754271dfa")
 		)
@@ -30206,7 +30828,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R50")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -30246,7 +30868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0402_1005Metric"
 			(at 267.97 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -30334,6 +30956,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 267.97 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "af0ca0ed-f6af-4c40-94f0-3de03e2e4d73")
 		)
@@ -30361,7 +30994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76473afa-66b6-4bb7-b141-9a33fe4a87b3")
-		(property "Reference" "R11"
+		(property "Reference" "R35"
 			(at 296.1386 71.5553 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30383,7 +31016,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 294.64 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -30471,6 +31104,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 294.64 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "653174ac-e849-476a-afe7-a59a4ec61540")
 		)
@@ -30480,7 +31124,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R11")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -30498,7 +31142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76b8c509-a5a3-4d4e-bc33-aa8cfd8292af")
-		(property "Reference" "C2"
+		(property "Reference" "C39"
 			(at 290.6141 185.8616 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30520,7 +31164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 288.29 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -30608,6 +31252,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 288.29 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ce474033-1c4c-4d54-95ad-f980f008e942")
 		)
@@ -30617,7 +31272,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C2")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -30786,6 +31441,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical - Switches:Slide_MINI_MSK12CO2")
+		(at 240.03 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "794a2dfb-4acd-42a7-b363-1de051a1db65")
+		(property "Reference" "SW1"
+			(at 240.03 82.296 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "MINI MSK12CO2"
+			(at 237.236 90.932 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Mechanical - Switch [UL]:Switch_Slide_ShouHan_MINI_MSK12CO2"
+			(at 240.03 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407161403_SHOU-HAN-MINI-MSK12CO2_C2681570.pdf"
+			(at 240.03 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Horizontal attachment 50mA Single Pole Double Throw (SPDT) 12V White 10,000 times SMD Slide Switches ROHS"
+			(at 240.03 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Variant" "ADV_SMT"
+			(at 240.03 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "545b50ce-44a9-42c4-adc2-e1a96af62234")
+		)
+		(pin "2"
+			(uuid "75f4bc15-2c8c-4459-a88b-c3aa727b2459")
+		)
+		(pin "3"
+			(uuid "386a8e68-97cf-4919-9956-c8f972baf2c5")
+		)
+		(pin "MP"
+			(uuid "a4dd40a5-1c0b-445c-b4e6-3c2132eb65ea")
+		)
+		(instances
+			(project "phyduino_pico"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "phyduino_pico:C")
 		(at 356.87 170.18 0)
 		(unit 1)
@@ -30797,7 +31550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d6fd5ab-9597-437a-bd09-512e257dda6a")
-		(property "Reference" "C14"
+		(property "Reference" "C12"
 			(at 359.791 169.3453 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30819,7 +31572,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 357.8352 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -30907,6 +31660,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 356.87 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9f3b5f17-f31b-427d-91d0-64f7b82e3ebe")
 		)
@@ -30916,7 +31680,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C14")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -30934,7 +31698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e33041c-c520-484d-bb34-4aca65d5b83b")
-		(property "Reference" "C10"
+		(property "Reference" "C8"
 			(at 299.5041 185.8616 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30956,7 +31720,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 297.18 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -31044,6 +31808,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 297.18 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "59bdf677-da1d-4f34-adf5-da4f3401265f")
 		)
@@ -31053,7 +31828,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C10")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -31093,7 +31868,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD [KL]:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 281.94 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -31214,6 +31989,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 281.94 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f67e2bde-cb03-45e0-b360-a7499aa7c7a2")
 		)
@@ -31240,7 +32026,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7fb83d9e-150e-44a8-a1e1-1f45ff9ef827")
-		(property "Reference" "C4"
+		(property "Reference" "C2"
 			(at 268.3509 176.9653 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31262,7 +32048,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 264.4648 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -31350,6 +32136,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 265.43 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9554bca4-8146-449f-b905-816c94a5671a")
 		)
@@ -31359,7 +32156,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C4")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -31399,7 +32196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0402_1005Metric"
 			(at 217.17 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -31477,6 +32274,17 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 217.17 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 217.17 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -31594,7 +32402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80f83b8c-44da-483f-b2d1-a5121539f271")
-		(property "Reference" "C13"
+		(property "Reference" "C11"
 			(at 349.631 169.3453 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31616,7 +32424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 347.6752 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -31704,6 +32512,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 346.71 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "66f6fa51-a562-4a49-bb25-33beb2809d81")
 		)
@@ -31713,7 +32532,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C13")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -31810,7 +32629,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "82b536d0-d584-4026-a7bb-082e52e4e0dc")
-		(property "Reference" "C37"
+		(property "Reference" "C43"
 			(at 222.25 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31830,7 +32649,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0402_1005Metric"
 			(at 219.71 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -31918,6 +32737,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 219.71 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "64b7dff7-8dd2-44e5-82ee-ed200f945b62")
 		)
@@ -31927,7 +32757,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C37")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -31945,7 +32775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8506aeb1-359d-432d-9e7c-1a88e2d5ab26")
-		(property "Reference" "R44"
+		(property "Reference" "R32"
 			(at 221.2086 52.5053 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31967,7 +32797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 219.71 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -32055,6 +32885,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 219.71 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3cd086a5-d8dd-4d69-a27b-6d5b3993e229")
 		)
@@ -32064,7 +32905,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R44")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -32104,7 +32945,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 48.26 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -32182,6 +33023,17 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
+			(at 48.26 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 48.26 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -32400,7 +33252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0402_1005Metric"
 			(at 278.13 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -32478,6 +33330,17 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 278.13 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 278.13 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -32593,7 +33456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a6527c9-dc52-4655-8246-dd800da17770")
-		(property "Reference" "C9"
+		(property "Reference" "C5"
 			(at 299.5041 142.6816 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32615,7 +33478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 297.18 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -32703,6 +33566,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 297.18 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c258010d-36e7-4639-8db4-e2643fa574ca")
 		)
@@ -32712,7 +33586,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C9")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -32753,7 +33627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD [KL]:D_SOD-123"
 			(at 181.61 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -32890,7 +33764,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0402_1005Metric"
 			(at 64.77 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -32923,7 +33797,7 @@
 				)
 			)
 		)
-		(property "Variant" "STUDENT"
+		(property "Variant" "ADV_SMT"
 			(at 64.77 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -32968,6 +33842,17 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
+			(at 64.77 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 64.77 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -33165,7 +34050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91d08aa9-381b-4873-97ff-c2442e8aa1f2")
-		(property "Reference" "R37"
+		(property "Reference" "R51"
 			(at 190.7286 138.9204 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33187,7 +34072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0402_1005Metric"
 			(at 189.23 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -33275,6 +34160,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 189.23 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "33d2041c-c420-4959-a781-342d7a501d9e")
 		)
@@ -33284,7 +34180,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R37")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -33324,7 +34220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0402_1005Metric"
 			(at 158.75 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -33412,6 +34308,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 158.75 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2087f4fe-c5d9-4666-9fd9-680e8975223b")
 		)
@@ -33439,7 +34346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93373bda-6f70-4ec1-ac66-7332946bc041")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 340.5886 183.3153 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33461,7 +34368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 339.09 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -33549,6 +34456,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 339.09 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4a447154-516c-4b96-9e8a-42acdb2eb672")
 		)
@@ -33558,7 +34476,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -33575,7 +34493,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "948f3de9-27ac-41c3-b79b-298365c468b4")
-		(property "Reference" "C31"
+		(property "Reference" "C35"
 			(at 203.2 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33595,7 +34513,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0402_1005Metric"
 			(at 203.2 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -33683,6 +34601,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 203.2 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2a13ad98-2da1-45a7-9a44-389383a24115")
 		)
@@ -33692,7 +34621,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C31")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -33869,7 +34798,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "978c51d4-d2ed-4289-bfbd-e5865cb75c85")
-		(property "Reference" "R13"
+		(property "Reference" "R39"
 			(at 368.3 210.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33889,7 +34818,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0402_1005Metric"
 			(at 370.84 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -33977,6 +34906,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 370.84 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a60a113a-d9fb-463a-9add-f6d156a4dd94")
 		)
@@ -33996,7 +34936,7 @@
 			)
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R13")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -34014,7 +34954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97d798c3-c7ae-43cb-a5a7-e3d985db060a")
-		(property "Reference" "C44"
+		(property "Reference" "C36"
 			(at 229.6541 65.2116 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34036,7 +34976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 227.33 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -34124,6 +35064,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 227.33 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ada0cfcd-2234-4400-af45-a8deab829d64")
 		)
@@ -34133,7 +35084,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C44")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -34173,7 +35124,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0402_1005Metric"
 			(at 289.56 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -34261,6 +35212,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 289.56 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5710115b-038c-46e9-8f9f-433611052070")
 		)
@@ -34310,7 +35272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 279.4 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -34398,6 +35360,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 279.4 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fdde6a2a-254f-4b8e-991f-8e6e08271851")
 		)
@@ -34447,7 +35420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 288.29 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -34525,6 +35498,17 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
+			(at 288.29 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 288.29 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -34720,7 +35704,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a46f42fa-9543-42cf-a645-5adee00b69b7")
-		(property "Reference" "R15"
+		(property "Reference" "R19"
 			(at 368.3 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34740,7 +35724,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0402_1005Metric"
 			(at 370.84 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -34828,6 +35812,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 370.84 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "13710c06-fc8a-4d4e-b6be-437fa3779cce")
 		)
@@ -34847,7 +35842,7 @@
 			)
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R15")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -34866,7 +35861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a67aacc9-73a5-4288-bdd6-e117a05c02d9")
-		(property "Reference" "R35"
+		(property "Reference" "R23"
 			(at 27.7114 185.8553 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34888,7 +35883,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 29.21 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -34976,6 +35971,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 29.21 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "85c5e359-c2b1-4aa7-ae87-3206dbb41d10")
 		)
@@ -34985,7 +35991,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R35")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -35025,7 +36031,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+		(property "Footprint" "LED_SMD [KL]:LED_0402_1005Metric"
 			(at 241.3 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -35136,6 +36142,17 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
+			(at 241.3 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 241.3 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -35271,7 +36288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pacakge Lib - DFN:AONR21321_DFN_3x3"
+		(property "Footprint" "Package - DFN [UL]:AONR21321_DFN_3x3"
 			(at 209.55 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -35433,7 +36450,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0402_1005Metric"
 			(at 110.49 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -35521,6 +36538,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 110.49 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ddbba45a-f382-45f6-9119-01599e922436")
 		)
@@ -35570,7 +36598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0402_1005Metric"
 			(at 196.85 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -35648,6 +36676,17 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 196.85 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 196.85 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -35785,7 +36824,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD [KL]:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 294.64 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -35895,6 +36934,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 294.64 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3c5ccd86-2b6e-458b-b100-31eab5d1c7b1")
 		)
@@ -35921,7 +36971,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0cb4f79-ddd3-4e64-9c86-5e732f2bcc2b")
-		(property "Reference" "R31"
+		(property "Reference" "R43"
 			(at 106.68 255.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35942,7 +36992,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0402_1005Metric"
 			(at 106.68 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -36030,6 +37080,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 106.68 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "83cd5b4d-b99d-4fb7-bf71-33cac4100e75")
 		)
@@ -36039,7 +37100,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R31")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -36157,7 +37218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
+		(property "Footprint" "Package_TO_SOT_SMD [KL]:SOT-666"
 			(at 107.95 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -36394,7 +37455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 339.09 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -36482,6 +37543,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 339.09 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d30ef531-8ac8-4ad0-8746-8bb1d9008abc")
 		)
@@ -36499,7 +37571,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 154.94 194.31 0)
+		(at 152.4 194.31 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -36511,7 +37583,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8d6b9c3-2547-4a7c-ae05-dbc49b43ffb5")
 		(property "Reference" "#PWR038"
-			(at 154.94 199.39 0)
+			(at 152.4 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36522,7 +37594,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 155.067 198.347 0)
+			(at 152.527 198.347 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36533,7 +37605,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 195.58 0)
+			(at 152.4 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36544,7 +37616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 195.58 0)
+			(at 152.4 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36555,7 +37627,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 194.31 0)
+			(at 152.4 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36611,7 +37683,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 274.32 127 0)
 			(hide yes)
 			(show_name no)
@@ -36699,6 +37771,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 274.32 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "18a9e924-345c-4a2d-ba08-595ffc779d26")
 		)
@@ -36716,7 +37799,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 247.65 92.71 0)
+		(at 250.19 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36727,7 +37810,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb9a8357-379f-40e9-8dc4-ae3af7f675f4")
 		(property "Reference" "#PWR0104"
-			(at 247.65 99.06 0)
+			(at 250.19 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36738,7 +37821,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 247.65 97.1534 0)
+			(at 250.19 97.1534 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36749,7 +37832,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 92.71 0)
+			(at 250.19 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36760,7 +37843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 92.71 0)
+			(at 250.19 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36771,7 +37854,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 247.65 92.71 0)
+			(at 250.19 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36985,7 +38068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0402_1005Metric"
 			(at 237.49 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -37073,6 +38156,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 237.49 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "97fbcd16-324b-426a-bc02-186a6c99daf7")
 		)
@@ -37121,7 +38215,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0402_1005Metric"
 			(at 221.2848 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -37209,6 +38303,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 222.25 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c78f4b1e-2cb7-4dcf-b119-917a6f6e7a35")
 		)
@@ -37236,7 +38341,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c11f958c-e1a9-4fa9-84b4-86b4d37e69b7")
-		(property "Reference" "R38"
+		(property "Reference" "R13"
 			(at 226.06 84.455 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37256,7 +38361,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0402_1005Metric"
 			(at 226.06 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -37344,6 +38449,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 226.06 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "96b537e5-2693-4850-816b-08913baeff7a")
 		)
@@ -37353,7 +38469,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R38")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -37393,7 +38509,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm"
+		(property "Footprint" "Oscillator [KL]:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm"
 			(at 149.86 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -37491,6 +38607,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "crystal_resonator_oscillator"
+			(at 149.86 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a91771c3-b8ce-4926-ba76-09da08e6710f")
 		)
@@ -37524,7 +38651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3215858-2866-4262-9e6b-8f5672e92f59")
-		(property "Reference" "R9"
+		(property "Reference" "R8"
 			(at 340.5886 132.5153 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37546,7 +38673,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 339.09 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -37634,6 +38761,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 339.09 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8c61f800-fc8c-4fb6-85ec-76307123f7c4")
 		)
@@ -37643,7 +38781,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R9")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -37661,7 +38799,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5c99973-e8c0-4788-a253-70166edfcab0")
-		(property "Reference" "R39"
+		(property "Reference" "R38"
 			(at 214.63 137.795 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37681,7 +38819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0402_1005Metric"
 			(at 214.63 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -37769,6 +38907,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 214.63 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a81da0d3-140e-4514-bffa-fa6b3d1fc0ca")
 		)
@@ -37778,7 +38927,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R39")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -38029,7 +39178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7a615ef-676d-41e2-a8eb-2e8c27fb041d")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 272.8215 169.4004 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38051,7 +39200,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 274.32 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -38139,6 +39288,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 274.32 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "72770610-55fe-41b5-a6b9-912ed8109097")
 		)
@@ -38148,7 +39308,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -38235,7 +39395,7 @@
 	)
 	(symbol
 		(lib_id "phyduino_pico:C_Small")
-		(at 146.05 196.85 270)
+		(at 142.24 196.85 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -38245,8 +39405,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c96cb829-83fa-41fa-ac34-a0d288802d45")
-		(property "Reference" "C43"
-			(at 147.32 195.58 90)
+		(property "Reference" "C37"
+			(at 143.51 195.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38257,7 +39417,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at 144.78 198.12 90)
+			(at 140.97 198.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38267,8 +39427,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 146.05 196.85 0)
+		(property "Footprint" "Capacitor_SMD [KL]:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 142.24 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38279,7 +39439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 196.85 0)
+			(at 142.24 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38290,7 +39450,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 196.85 0)
+			(at 142.24 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38301,7 +39461,7 @@
 			)
 		)
 		(property "Variant" "STUDENT"
-			(at 146.05 196.85 0)
+			(at 142.24 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38312,7 +39472,7 @@
 			)
 		)
 		(property "Distributor" "Mouser"
-			(at 146.05 196.85 0)
+			(at 142.24 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38323,7 +39483,7 @@
 			)
 		)
 		(property "Dist_PN" "80-C0805C104Z5V"
-			(at 146.05 196.85 0)
+			(at 142.24 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38334,7 +39494,7 @@
 			)
 		)
 		(property "PN" "C0805C104Z5V"
-			(at 146.05 196.85 0)
+			(at 142.24 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38345,7 +39505,18 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 146.05 196.85 0)
+			(at 142.24 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 142.24 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38364,7 +39535,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C43")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -38402,7 +39573,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0402_1005Metric"
 			(at 190.5 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -38480,6 +39651,17 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 190.5 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 190.5 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -38586,7 +39768,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 194.31 0)
+		(at 132.08 194.31 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -38598,7 +39780,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca794df6-e3d7-4f37-ab8a-047e0efd7a0c")
 		(property "Reference" "#PWR015"
-			(at 138.43 200.66 0)
+			(at 132.08 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38609,7 +39791,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 198.7534 0)
+			(at 132.08 198.7534 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38620,7 +39802,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 194.31 0)
+			(at 132.08 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38631,7 +39813,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 194.31 0)
+			(at 132.08 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38642,7 +39824,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 194.31 0)
+			(at 132.08 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39012,7 +40194,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO [KL]:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 309.88 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -39100,6 +40282,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 309.88 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "738ee414-11a0-4b79-8786-43ee05549344")
 		)
@@ -39145,7 +40338,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d22df828-f1cc-4e64-b062-56f9fad744b4")
-		(property "Reference" "C8"
+		(property "Reference" "C6"
 			(at 325.12 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39165,7 +40358,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 325.12 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -39253,6 +40446,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 325.12 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "661451c9-e52e-45a7-a456-e97a02d72a2c")
 		)
@@ -39262,7 +40466,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C8")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -39279,7 +40483,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d253d17c-7ed3-4474-bd8a-9c97cdc7608d")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 268.3509 135.0553 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39301,7 +40505,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 264.4648 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -39389,6 +40593,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 265.43 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c3f30239-50ef-4fb6-9692-8795e905af23")
 		)
@@ -39398,7 +40613,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -39724,6 +40939,95 @@
 		)
 	)
 	(symbol
+		(lib_id "phyduino_pico:MountingHole")
+		(at 264.16 259.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8d45778-1b2b-4843-86bf-4a62b18d6c45")
+		(property "Reference" "H4"
+			(at 266.7 258.2453 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 266.7 260.7822 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole [KL]:MountingHole_3.2mm_M3"
+			(at 264.16 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 264.16 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "phyduino_pico"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "phyduino_pico:C_Small")
 		(at 207.01 248.92 0)
 		(unit 1)
@@ -39757,7 +41061,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0402_1005Metric"
 			(at 207.01 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -39845,6 +41149,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 207.01 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "081f3d09-799c-4c0f-b97c-6f923527e2cc")
 		)
@@ -39871,7 +41186,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da7ae991-dc0d-4189-9211-85da9d7ba0b1")
-		(property "Reference" "R23"
+		(property "Reference" "R25"
 			(at 140.97 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39892,7 +41207,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0402_1005Metric"
 			(at 138.43 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -39980,6 +41295,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 138.43 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "007231d2-62e9-4ff2-a6a1-9b28881f64e1")
 		)
@@ -39989,7 +41315,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R23")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -40027,7 +41353,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Symbol:OSHW-Logo2_9.8x8mm_SilkScreen"
+		(property "Footprint" "Symbol [KL]:OSHW-Logo2_9.8x8mm_SilkScreen"
 			(at 403.86 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -40050,6 +41376,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 403.86 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Variant" "ADV_SMT"
 			(at 403.86 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -40103,7 +41440,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0402_1005Metric"
 			(at 176.53 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -40191,6 +41528,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 176.53 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f1a5ac9f-b7f9-4945-8eae-f681af79ed7b")
 		)
@@ -40218,7 +41566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddc8e1f2-a42a-48a8-b731-cb541baaa9a4")
-		(property "Reference" "R10"
+		(property "Reference" "R9"
 			(at 340.5886 175.6953 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40240,7 +41588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 339.09 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -40328,6 +41676,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 339.09 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "70945203-5f4b-4075-b504-8a3d9bff7dbc")
 		)
@@ -40337,7 +41696,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R10")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -40455,7 +41814,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0402_1005Metric"
 			(at 227.33 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -40533,6 +41892,17 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 227.33 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 227.33 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -40648,7 +42018,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4efb46a-358e-4c42-ac46-52e72b73b5dd")
-		(property "Reference" "C34"
+		(property "Reference" "C41"
 			(at 241.3 182.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40668,7 +42038,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0402_1005Metric"
 			(at 238.76 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -40756,6 +42126,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 238.76 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1aead402-db1b-4912-91f9-e83ebd3d6963")
 		)
@@ -40765,7 +42146,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C34")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -40783,7 +42164,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e60be243-8660-4722-bed9-f3c5e52e3e43")
-		(property "Reference" "C33"
+		(property "Reference" "C13"
 			(at 100.5459 235.3916 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40805,7 +42186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0402_1005Metric"
 			(at 102.87 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -40893,6 +42274,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 102.87 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d898c238-bc24-44e0-9d7f-33cd1c7187c0")
 		)
@@ -40902,7 +42294,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C33")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -41020,7 +42412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0402_1005Metric"
 			(at 186.69 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -41098,6 +42490,17 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 186.69 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 186.69 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -41215,7 +42618,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec090ac0-c42c-4de5-a9bc-7732d65547a6")
-		(property "Reference" "U9"
+		(property "Reference" "U7"
 			(at 31.2166 197.6015 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41236,7 +42639,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD [KL]:SOT-23"
 			(at 24.13 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -41326,6 +42729,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 29.21 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d936837b-10be-45f8-82d0-748776696dd8")
 		)
@@ -41338,7 +42752,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U9")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -41535,7 +42949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0402_1005Metric"
 			(at 186.69 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -41613,6 +43027,17 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 186.69 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 186.69 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -41649,7 +43074,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0f30a6a-f68c-4909-9da8-ffbf32c95fb3")
-		(property "Reference" "R25"
+		(property "Reference" "R11"
 			(at 29.21 212.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41669,7 +43094,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD [KL]:R_0402_1005Metric"
 			(at 29.21 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -41757,6 +43182,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 29.21 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "395b74de-5e35-4315-89b6-82402e8f134a")
 		)
@@ -41766,7 +43202,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R25")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -41863,7 +43299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f88fbcb2-bd22-426e-8f70-acc03f1cb261")
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 220.853 65.2053 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41886,7 +43322,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
+		(property "Footprint" "Button_Switch_THT [KL]:SW_PUSH_6mm_H4.3mm"
 			(at 214.63 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -41983,7 +43419,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -42092,17 +43528,17 @@
 			)
 		)
 		(property "Value" "USB4110-GF-A"
-			(at 126.492 182.372 0)
+			(at 131.064 179.324 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "UL - Connectors - PC:GCT-USBC-GCT_USB4110"
+		(property "Footprint" "Connector - PC SMT [UL]:GCT-USBC-GCT_USB4110"
 			(at 138.43 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -42125,6 +43561,17 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(at 142.24 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Variant" "ADV_SMT"
 			(at 142.24 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -42180,6 +43627,15 @@
 		(pin "B9"
 			(uuid "1f293f58-12a4-4ab7-ad55-91da5026ac02")
 		)
+		(pin "S4"
+			(uuid "a6bb87b8-fa57-4523-94db-f704a4719563")
+		)
+		(pin "S2"
+			(uuid "9a9f820b-66b3-4ab4-958f-9e84e97be143")
+		)
+		(pin "S3"
+			(uuid "25582b31-f719-44c7-a436-d9818c008d13")
+		)
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -42201,7 +43657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbd889ba-0203-4e1d-b7b8-0e0db91a05b2")
-		(property "Reference" "C6"
+		(property "Reference" "C4"
 			(at 281.7241 142.6816 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42223,7 +43679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD [KL]:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 279.4 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -42311,6 +43767,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 279.4 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a49c5c33-1879-46c5-81ca-9a5c308812c1")
 		)
@@ -42320,144 +43787,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "phyduino_pico:SW_SPDT")
-		(at 238.76 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fc97ca71-e9ad-4c0a-a733-e67eda245010")
-		(property "Reference" "SW2"
-			(at 236.22 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AYZ0102AGRLC"
-			(at 236.22 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Mechincal_Switches:AYZ0102AGRLC_SMD"
-			(at 238.76 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ckswitches.com/media/1431/ayz.pdf"
-			(at 238.76 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 238.76 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PN" "${VALUE}"
-			(at 238.76 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Variant" "STUDENT"
-			(at 238.76 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dist_PN" "611-AYZ0102AGRLC"
-			(at 238.76 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "Mouser"
-			(at 238.76 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "C&K"
-			(at 238.76 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2db69b48-5947-4ae9-952b-a47dbaf4d694")
-		)
-		(pin "2"
-			(uuid "2de8c2c3-fad3-4992-a9d9-4ee753bafb0c")
-		)
-		(pin "3"
-			(uuid "eaa384d5-c5c7-4966-b8f9-eb59eccefc4a")
-		)
-		(instances
-			(project "phyduino_pico"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "SW2")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -42655,7 +43985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD [KL]:D_SOD-123"
 			(at 328.93 175.26 0)
 			(hide yes)
 			(show_name no)

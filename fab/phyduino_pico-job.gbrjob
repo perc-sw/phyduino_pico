@@ -3,22 +3,22 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.0.7"
+      "Version": "10.0.3-10.0.3~ubuntu24.04.1"
     },
-    "CreationDate": "2023-11-27T17:28:18-05:00"
+    "CreationDate": "2026-05-29T22:33:17-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "Phyduino_Pico_RevD1",
-      "GUID": "50687964-7569-46e6-9f5f-5069636f5f52",
-      "Revision": "rev?"
+      "Name": "phyduino_pico",
+      "GUID": "70687964-7569-46e6-9f5f-7069636f2e6b",
+      "Revision": "E"
     },
     "Size": {
       "X": 68.68,
       "Y": 53.44
     },
     "LayerNumber": 4,
-    "BoardThickness": 1.6062,
+    "BoardThickness": 1.582,
     "Finish": "ENIG"
   },
   "DesignRules": [
@@ -33,8 +33,8 @@
     },
     {
       "Layers": "Inner",
-      "PadToPad": 0.13,
-      "PadToTrack": 0.13,
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
       "TrackToTrack": 0.13,
       "TrackToRegion": 0.3,
       "RegionToRegion": 0.3
@@ -42,47 +42,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "Phyduino_Pico_RevD1-F_Cu.gbr",
+      "Path": "phyduino_pico-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Phyduino_Pico_RevD1-In1_Cu.gbr",
+      "Path": "phyduino_pico-In1_Cu.gbr",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Phyduino_Pico_RevD1-In2_Cu.gbr",
+      "Path": "phyduino_pico-In2_Cu.gbr",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Phyduino_Pico_RevD1-B_Cu.gbr",
+      "Path": "phyduino_pico-B_Cu.gbr",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Phyduino_Pico_RevD1-F_Silkscreen.gbr",
+      "Path": "phyduino_pico-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Phyduino_Pico_RevD1-B_Silkscreen.gbr",
+      "Path": "phyduino_pico-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Phyduino_Pico_RevD1-F_Mask.gbr",
+      "Path": "phyduino_pico-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Phyduino_Pico_RevD1-B_Mask.gbr",
+      "Path": "phyduino_pico-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Phyduino_Pico_RevD1-Edge_Cuts.gbr",
+      "Path": "phyduino_pico-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
@@ -91,6 +91,7 @@
     {
       "Type": "Legend",
       "Color": "White",
+      "Material": "Liquid Photo",
       "Name": "Top Silk Screen"
     },
     {
@@ -101,6 +102,7 @@
       "Type": "SolderMask",
       "Color": "Blue",
       "Thickness": 0.01,
+      "Material": "Liquid Ink",
       "Name": "Top Solder Mask"
     },
     {
@@ -110,31 +112,34 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.2104,
+      "Color": "R109G116B75",
+      "Thickness": 0.196,
       "Material": "FR4",
       "Name": "F.Cu/In1.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.0152,
+      "Thickness": 0.035,
       "Name": "In1.Cu"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 1.065,
+      "Color": "R109G116B75",
+      "Thickness": 1.03,
       "Material": "FR4",
       "Name": "In1.Cu/In2.Cu",
       "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.0152,
+      "Thickness": 0.035,
       "Name": "In2.Cu"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.2104,
+      "Color": "R109G116B75",
+      "Thickness": 0.196,
       "Material": "FR4",
       "Name": "In2.Cu/B.Cu",
       "Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu)"
@@ -148,6 +153,7 @@
       "Type": "SolderMask",
       "Color": "Blue",
       "Thickness": 0.01,
+      "Material": "Liquid Ink",
       "Name": "Bottom Solder Mask"
     },
     {
@@ -157,6 +163,7 @@
     {
       "Type": "Legend",
       "Color": "White",
+      "Material": "Liquid Photo",
       "Name": "Bottom Silk Screen"
     }
   ]
