@@ -137,10 +137,10 @@ body {
   margin-bottom: 2.5rem;
 }
 
-@media (max-width: 600px) {
-  /* .board-hero { grid-template-columns: 1fr; } */
-  .board-img-panel { order: -1; }
-}
+/*@media (max-width: 600px) {*/
+/*  !* .board-hero { grid-template-columns: 1fr; } *!*/
+/*  .board-img-panel { order: -1; }*/
+/*}*/
 
 .board-hero-text {
   display: flex;
