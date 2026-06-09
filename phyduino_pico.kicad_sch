@@ -34344,10 +34344,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "93373bda-6f70-4ec1-ac66-7332946bc041")
-		(property "Reference" "R10"
-			(at 340.5886 183.3153 0)
+		(property "Reference" "R9"
+			(at 340.868 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34358,7 +34357,7 @@
 			)
 		)
 		(property "Value" "1.96K"
-			(at 340.5886 185.8522 0)
+			(at 340.868 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34476,7 +34475,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R10")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -41564,10 +41563,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ddc8e1f2-a42a-48a8-b731-cb541baaa9a4")
-		(property "Reference" "R9"
-			(at 340.5886 175.6953 0)
+		(property "Reference" "R10"
+			(at 340.614 175.514 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41578,7 +41576,7 @@
 			)
 		)
 		(property "Value" "10.2KΩ"
-			(at 340.5886 178.2322 0)
+			(at 340.614 178.054 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41696,7 +41694,7 @@
 		(instances
 			(project "phyduino_pico"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)

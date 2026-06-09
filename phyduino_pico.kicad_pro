@@ -817,7 +817,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "fab/",
+      "plot": "docs/images/svg/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "step/Phyduino_Pico_RevD.step",
