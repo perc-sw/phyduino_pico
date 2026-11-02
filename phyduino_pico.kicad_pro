@@ -65,7 +65,7 @@
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
-          "remove_islands": 0,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -82,32 +82,7 @@
           "width": 0.15
         }
       ],
-      "drc_exclusions": [
-        [
-          "copper_edge_clearance|103414000|37530000|f78d1074-e50a-4bc3-8eff-17f5abcf020c|ba70b608-9a3e-49ae-b4e9-0c0fec3dbe01",
-          ""
-        ],
-        [
-          "copper_edge_clearance|103414000|43130000|f78d1074-e50a-4bc3-8eff-17f5abcf020c|af9e60b1-b3f4-4597-b0c1-f23609bc780d",
-          ""
-        ],
-        [
-          "copper_edge_clearance|38145000|32680000|403e03b9-6e6a-4314-8f2c-e517b28be911|deaca14a-6efd-4301-b36a-18fde94d8f6b",
-          ""
-        ],
-        [
-          "copper_edge_clearance|38145000|37280000|403e03b9-6e6a-4314-8f2c-e517b28be911|e97b5683-a669-4271-bf7e-8836e762ce6a",
-          ""
-        ],
-        [
-          "solder_mask_bridge|103414000|37530000|47fb28e7-32ee-4803-a246-f456d0ab7694|af9e60b1-b3f4-4597-b0c1-f23609bc780d",
-          ""
-        ],
-        [
-          "starved_thermal|58167000|66078000|44c5ef8b-966a-4928-8272-cbb470bcb822|9aaf5c92-cabe-41ab-a047-c704c51ae7c6|F.Cu",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -304,7 +279,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "D"
+      "sch_revision": "E"
     },
     "layer_pairs": [],
     "layer_presets": [
@@ -1008,7 +983,7 @@
       "model_mode": 0,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://ISO_B_PLRS.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "space_save_all_events": true,
@@ -1028,7 +1003,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "R25,R38-39,C13-14,H4,SW2",
+    "used_designators": "R25,R38-39,R45-46,R52-56,C13-14,C36,C45-53,C57-59,H4,SW2-3,#PWR13,#PWR19,#PWR24-25,#PWR27,#PWR43,#PWR46,#PWR56,#PWR65-94,#PWR97-98,RN1-2,FB2,TP5-6,TP22,U10,U15",
     "variants": []
   },
   "sheets": [
