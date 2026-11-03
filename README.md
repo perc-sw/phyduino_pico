@@ -4,7 +4,7 @@
 
 ## Description
 
-This repository has all CAD files for the Phyduino Pico board used in the University of Toronto, Department of Physic, "[Introduction to Electronics course.](https://plrs.physics.utoronto.ca/course-listing/)" 
+This repository has all CAD files for the Phyduino Pico board used in the University of Toronto, Department of Physic, "[Introduction to Electronics course.](https://perc-sw.github.io/intro_to_electronics/)" 
 
 This board is used to train graduate students first and foremost in surface mount hole solder techniques. As part of the training in the course they will as learn digital interfaces and digital IO design methods as well. This board is a fully function Arduino Uno style board using the Raspberry PI RP2040 microcontroller.
 
