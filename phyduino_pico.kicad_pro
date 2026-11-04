@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.64,
-          "width": 0.715
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -52,7 +52,7 @@
         "zones": {
           "45_degree_only": false,
           "border_display_style": 2,
-          "border_hatch_pitch": 0.5,
+          "border_hatch_pitch": 0.508,
           "corner_radius": 0.0,
           "corner_smoothing": 0,
           "fill_mode": 0,
@@ -63,11 +63,11 @@
           "hatch_thickness": 1.0,
           "min_clearance": 0.2,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
-          "pad_connection": 2,
-          "remove_islands": 1,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "min_thickness": 0.1,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.508,
+          "thermal_relief_spoke_width": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -710,7 +710,11 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {
+      "+1.1V": "rgb(255, 0, 255)",
+      "+3.3V": "rgb(0, 255, 255)",
+      "+V_{PD}": "rgb(255, 153, 0)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": [
       {
@@ -1003,8 +1007,12 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "R25,R27,R29,R38-39,R45-46,R52-56,C13-14,C36,C45-53,C57-59,H4,SW2-3,#PWR13,#PWR19,#PWR24-25,#PWR27,#PWR43,#PWR46,#PWR56,#PWR65-94,#PWR97-98,RN1-2,FB2,TP5-6,TP22,U10,U15",
-    "variants": []
+    "used_designators": "R25,R27,R29,R38-39,R45-46,R52-56,C13-14,C31,C36,C45-54,C57-59,H4,SW2-3,#PWR13,#PWR19,#PWR24-25,#PWR27,#PWR29,#PWR43,#PWR46,#PWR53,#PWR56,#PWR65-94,#PWR97-99,RN1-2,FB2,TP5-6,TP22-32,U7,U10,U15,J9",
+    "variants": [
+      {
+        "name": "Digikey"
+      }
+    ]
   },
   "sheets": [
     [
