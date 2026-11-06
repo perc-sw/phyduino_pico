@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.0,
+          "height": 1.6,
+          "width": 3.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -1003,7 +1003,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "R25,R27,R29,R38-39,R45-46,R52-65,R164,C13-14,C31,C33-34,C36,C39-40,C44-62,H4,SW2-3,#PWR9,#PWR13,#PWR19,#PWR21,#PWR24-25,#PWR27,#PWR29,#PWR31-32,#PWR43,#PWR46,#PWR53-59,#PWR65-94,#PWR97-99,RN1-3,FB2,TP5-6,TP14,TP18,TP20,TP22-32,U7,U10-12,U15,J8-9,L3-4,Q2-3,D3-4,D9,F1",
+    "used_designators": "R17,R25,R27,R29,R38-39,R45-46,R52-67,R164,R172,C13-14,C31-34,C36,C39-40,C44-62,C72,H4,SW2-3,#PWR9,#PWR13,#PWR19,#PWR21-22,#PWR24-25,#PWR27,#PWR29,#PWR31-33,#PWR43,#PWR46,#PWR53-59,#PWR61-62,#PWR65-94,#PWR97-99,#PWR103,#PWR111-115,RN1-3,FB2,TP5-6,TP14,TP18,TP20,TP22-32,U5,U7,U10-12,U15,J8-9,L3-4,Q2-3,D3-4,D9,D11,D13,F1",
     "variants": [
       {
         "name": "Digikey"
