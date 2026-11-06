@@ -64,7 +64,7 @@
           "min_clearance": 0.2,
           "min_island_area": 10.0,
           "min_thickness": 0.1,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.508,
           "thermal_relief_spoke_width": 0.508
@@ -710,11 +710,7 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {
-      "+1.1V": "rgb(255, 0, 255)",
-      "+3.3V": "rgb(0, 255, 255)",
-      "+V_{PD}": "rgb(255, 153, 0)"
-    },
+    "net_colors": null,
     "netclass_assignments": null,
     "netclass_patterns": [
       {
@@ -1007,7 +1003,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "R25,R27,R29,R38-39,R45-46,R52-56,C13-14,C31,C36,C45-54,C57-59,H4,SW2-3,#PWR13,#PWR19,#PWR24-25,#PWR27,#PWR29,#PWR43,#PWR46,#PWR53,#PWR56,#PWR65-94,#PWR97-99,RN1-2,FB2,TP5-6,TP22-32,U7,U10,U15,J9",
+    "used_designators": "R25,R27,R29,R38-39,R45-46,R52-65,R164,C13-14,C31,C33-34,C36,C39-40,C44-62,H4,SW2-3,#PWR9,#PWR13,#PWR19,#PWR21,#PWR24-25,#PWR27,#PWR29,#PWR31-32,#PWR43,#PWR46,#PWR53-59,#PWR65-94,#PWR97-99,RN1-3,FB2,TP5-6,TP14,TP18,TP20,TP22-32,U7,U10-12,U15,J8-9,L3-4,Q2-3,D3-4,D9,F1",
     "variants": [
       {
         "name": "Digikey"
